@@ -5,6 +5,8 @@ public class ProductManager {
         System.out.println("Hello, Product Manager!");
     }
 
+
+    /*Calculates the discount and returns the price with discount */
     public static double calculateDiscount(double price, double percent) {
         return price - (price * (percent / 100));
     }
